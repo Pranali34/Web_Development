@@ -1,0 +1,227 @@
+
+<html>
+    <head>
+        <title>Contact</title>
+
+        <style>
+            *{
+                margin: 0;
+            }
+            body{
+                background-color:white;
+            }
+            .nav{
+                background-color: rgba(220, 210, 18, 0.886);;
+                display: flex;
+                padding: 30px;
+            }
+            a{
+                text-decoration: none;
+                color: rgb(6, 6, 6);
+                font-size: 28px;
+                font-family: High Tower Text;
+            }
+            header>div{
+                margin-left: 60px;
+            }
+
+            button:hover{
+                background-color: rgba(249, 249, 249, 0.451);
+                border-radius: 10px;
+                border: 1px rgb(7, 7, 7);
+                
+            }
+            button{
+                width: 130px;
+                height: 40px;
+                background: none;
+                border: none;
+            }
+            input {
+                padding: 4px 10px;
+                border: 0;
+                font-size: 16px;
+            }
+            .search {
+                width: 70%;
+            }
+            .submit {
+                width: 70px;
+                background-color: #9c06ca;
+                color: #ffffff;
+                margin-top: 10px;
+            }
+            #d1{
+                margin-left: 5%;
+            }
+            #d2{
+                margin-left: 15%;
+            }
+            #logo{
+                margin-left: 5%;
+            }
+            h2{
+                font-family: Viner Hand ITC;
+                color: #f63737;
+            }
+            .d3{
+                position: relative;
+            }
+            .txt1{
+                position: absolute;
+                top: 71%;
+                left: 30%;
+                transform: translate(-50%, -50%);
+                font-family:Constantia ;  
+                background-color: rgba(255, 252, 252, 0.677);
+                color: #090909;
+                font-size: 65px;
+                text-align: center;
+                padding: 50px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .form{
+                position: absolute;
+                left: 70%;
+                top:71%;
+                transform: translate(-50%, -50%);
+                font-family:Constantia ;    
+                font-size: 65px;
+                text-align: center;
+                padding: 50px;
+                padding-left: 40px;
+                padding-right: 40px;
+                background-color: rgba(255, 252, 252, 0.677);
+;
+            }
+          #name,#email,#msg {
+                display: block;
+                width: 300px;
+                margin-bottom: 25px;
+                border-radius: 5px;
+                color: #fcfcfcfb;
+                background-color: #3a3939b8;
+            }
+            label{
+                font-size: 30px;
+                font-family:High Tower Text ;
+                color:#090909;
+            }
+            #btn1 {
+                display: block;
+                margin: 35px auto 0;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                background-color: #212020de;
+                color: #f5f0f0;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+            #btn1:hover {
+                 background-color: #070707fa;
+            } 
+            .txt2{
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+                color: rgb(220, 225, 57);
+                background-color: rgb(74, 53, 32);
+                padding: 10px;
+            }
+            #d4{
+                display: flex;
+                background-color: rgba(66, 56, 34, 0.896);
+            }
+            #d5,#d6,#d7,#d8{
+                margin-top: 50px;
+                margin-left: 140px;
+                margin-bottom: 50px;
+                font-size: 30px;
+                
+            }
+            #d6,#d7,#d8{
+                margin-left: 160px;
+                
+            }
+            .img1{
+                margin-left: 65px;
+            }
+            #img2{
+                margin-left: 100px;
+            }
+            .a1{
+                color: #ffffff;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header class="nav">
+
+            <div id="logo"><img src="C:\Users\Hp\Desktop\Pranali\HTML\01.Project\Welcome_Assets\logo.png" alt="logo" height="80px" width="150px"><h2>Foodie - Shoodie</h2> </div>
+
+            <div id="d1"> <button><a href="file:///C:/Users/Hp/Desktop/Pranali/HTML/01.Project/01_Welcome_Page.html">Home</a></button></div>
+            <div><button><a href="file:///C:/Users/Hp/Desktop/Pranali/HTML/01.Project/02_About_Us_Page.html">About Us</a></button></div>
+            <div><button><a href="file:///C:/Users/Hp/Desktop/Pranali/HTML/01.Project/03_Contact_Page.html">Contact</a></button></div>
+       
+            <div id="d2">
+                <input type="text" name="text" class="search" placeholder="search here...">
+                <input type="submit" name="submit" class="submit" value="Search">
+            </div>  
+         </header>
+
+         <div id="d3">
+            <img src="C:\Users\Hp\Desktop\Pranali\HTML\01.Project\Contact Assets\Img_1.jpg " width="100%" height="100%" alt="">
+            <div class="txt1">Come,Try. <br> Visit Our <br> Restaurant ! <br> Welcome...</div>
+            <div class="form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                  
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  
+                    <label for="message">Feedback:</label>
+                    <textarea id="msg" name="message" required></textarea>
+                  
+                    <button type="submit" id="btn1">Send</button>
+                  </form>
+
+            </div>
+
+           <div class="txt2">GOT QUESTIONS ? LET'S TALK!</div> 
+
+        </div>
+
+        <div id="d4">
+
+            <div id="d5">
+              <a href="#" class="a1"> <img class="img1" src="C:\Users\Hp\Desktop\Pranali\HTML\01.Project\Contact Assets\fb_logo.png" alt="fb" height="40px" width="40px"><br><br>
+                 <h5>Visit our page <br> on Facebook</h5></a> 
+            </div>
+
+            <div id="d6">
+               <a href="#" class="a1"> <img class="img1" src="C:\Users\Hp\Desktop\Pranali\HTML\01.Project\Contact Assets\g_logo.png" alt="g" height="40px" width="40px"><br><br>
+                 <h5>Visit our page <br>&nbsp; on  Google </h5></a>
+            </div>
+
+            <div id="d7">
+               <a href="#" class="a1"> <img class="img1" src="C:\Users\Hp\Desktop\Pranali\HTML\01.Project\Contact Assets\ig_logo.png" alt="ig" height="40px" width="40px"><br><br>
+                <h5>Visit our page <br> on Instragram</h5></a>
+            </div>
+
+            <div id="d8">
+               <a href="#" class="a1"> <img id="img2" src="C:\Users\Hp\Desktop\Pranali\HTML\01.Project\Contact Assets\Twit_logo.png" alt="twit" height="40px" width="40px"><br><br>
+                <h5>Follow us on Twitter <br> for the latest updates</h5></a>
+            </div>
+
+        </div>
+         
+        
+         </body>
+ </html>       
