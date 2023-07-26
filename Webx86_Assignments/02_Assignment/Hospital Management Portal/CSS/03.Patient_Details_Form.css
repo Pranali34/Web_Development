@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    text-align: center;
+    background-image:linear-gradient(rgba(238, 38, 241, 0.31),
+    rgba(238, 38, 241, 0.31)),
+    url(https://wire19.com/wp-content/uploads/2020/09/blog-featured-compressed-4-2100x1200.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 850px;
+}
+.form{
+    background-color: rgba(81, 195, 233, 0.856);
+    width: 40%;
+    margin:1% 10% 0% 25%;
+    padding: 40px;
+    transition: .90s ease-in-out;
+    border:2px solid #000000;
+    border-radius: 1% 1% 1% 1% ;
+}
+.form:hover{
+    border-radius: 30% 30% 30% 30%;
+    box-shadow: 5px 5px 10px #bebebe,
+    -5px -5px 10px #bfbfbf; 
+    transform: scale(1.02);
+    border: 2px solid rgb(248, 247, 248);
+}
+h1{
+    text-align: center;
+    font-family: Constantia;
+    background-color: rgb(102, 2, 99);
+    border-radius: 0 40% 0 40%;
+    color: #ffffff;
+    width: 60%;
+    margin-left: 20%;
+    padding: 8px;
+    box-shadow: 2px 2px rgb(5, 5, 5); 
+}
+label{
+    font-family: Georgia;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: large; 
+}
+input{
+    margin-top: 10px;
+    max-width: 170px;
+    padding: 10px 20px;
+    color: #040404;
+    outline: none;
+    transition: 0.35s;
+    background-color: #e2e2e2;
+    border-radius: 6px;
+    border: 2px solid rgb(71, 1, 68);
+    transform: 0.4s ease;
+}
+input::placeholder{
+    color: rgb(71, 1, 68);
+}
+input:focus{
+    transform: scale(1.05);
+    background-color: #ffffffc6;
+}
+textarea{
+    padding: 10px 20px;
+    color: #000000;
+    outline: none;
+    transition: 0.35s;
+    background-color: #e2e2e2;
+    border-radius: 6px;
+    border: 2px solid rgb(71, 1, 68);
+    transform: 0.4s ease;
+}
+textarea::placeholder{
+    color: rgb(71, 1, 68);
+}
+textarea:focus{
+    transform: scale(1.05);
+    background-color: #ffffffc6;
+}
+#Dept{
+    padding: 10px 20px;
+    color: #000000;
+    outline: none;
+    transition: 0.35s;
+    background-color: #e2e2e2;
+    border-radius: 6px;
+    border: 2px solid rgb(71, 1, 68);
+    transform: 0.4s ease;
+}
+#Dept::placeholder{
+    color: rgb(71, 1, 68);
+}
+#Dept:focus{
+    transform: scale(1.05);
+    background-color: #ffffffc6;
+}
+button {
+    width:110px;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 10px 30px 0px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 1px 2px 2px 1px rgba(123, 123, 123, 0.815); 
+    transition: .5s ease-in-out;
+}
+button::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #41014a 0%, #86048d 100%);
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1; 
+}
+button:hover::before {
+    width: 100%;
+}
+button:hover{
+    color: #fff;
+    box-shadow: none;
+    transform: scale(1.1);
+}

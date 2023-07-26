@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/03.Patient_Details_Form.css">
+    <title>Patient Details Form</title>
+</head>
+<body>
+    <form action="" class="form">
+        <h1>Patient Details Form</h1>
+        <br><br>
+        
+        <label for="FName">Full Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="FName" name="FName" placeholder="Enter Your Full Name" required> <br><br>
+        
+        <label for="Num">Mobile : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="Num" name="Num" placeholder="Enter Phone Number" required><br><br>
+        
+        <label for="Dept">Choose Department:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="Dept" name="Dept">
+            <option value="None">--Select--</option>
+            <option value="Radiology">Radiology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Dental">Dental</option>
+            <option value="Dermatology">Dermatology</option>
+        </select><br><br>
+        
+        <label for="Age">Age : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="Number" id="Age" name="Age" placeholder="Enter Age" required><br><br>
+        
+        <label for="Gender" >Gender :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <input  type="radio" name="Gender" id="Male" value="Male"> Male &nbsp;&nbsp;&nbsp;
+        
+        <input  type="radio" name="Gender" id="Female" value="Female"> Female &nbsp;&nbsp;&nbsp;
+        
+        <input  type="radio" name="Gender" id="Other" value="Other"> Other <br><br><br>
+        
+        <label for="Address">Address :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+        <textarea  name="Address" id="Address" cols="38" rows="2" placeholder="Your Address" required></textarea><br><br><br>
+        
+        
+        <a href="#"><Button> Go Back</Button></a>
+        <a href="#"><Button> Save</Button></a>
+        <a href="#"><Button>Reset</Button></a>
+    </form>
+    
+</body>
+</html>
